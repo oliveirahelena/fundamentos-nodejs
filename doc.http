@@ -1,0 +1,38 @@
+### List all courses
+
+GET http://localhost:3000/courses HTTP/1.1
+Content-Type: application/json
+
+### Create a course
+
+POST http://localhost:3000/courses HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Course 4"
+}
+
+### Update a course
+
+PUT http://localhost:3000/courses/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Course 6"
+}
+
+### Update a course
+
+PATCH http://localhost:3000/courses/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Course 7"
+}
+
+### Delete a course
+
+DELETE http://localhost:3000/courses/3 HTTP/1.1
+Content-Type: application/json
+
+### 
